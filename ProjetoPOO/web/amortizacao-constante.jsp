@@ -1,8 +1,3 @@
-<%-- 
-    Document   : amortizacao-constante
-    Created on : 15/03/2019, 00:42:37
-    Author     : finha
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,7 +7,8 @@
         
     </head>
     <body>
-                
+              <%@include file="WEB-INF/jspf/menu.jsp" %>
+      
     <!-- Formulario -->  
     <!-- Grid markup Bootstrap -->
         <center><div class="col-sm-6">
@@ -102,5 +98,7 @@
             </div>
             </div>
             </div></center>
+            
+            
     </body>
 </html>

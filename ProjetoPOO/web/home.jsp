@@ -1,19 +1,23 @@
-<%-- 
-    Document   : home
-    Created on : 15/03/2019, 00:41:53
-    Author     : finha
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>home</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+                <%@include file="WEB-INF/jspf/menu.jsp" %>
+
+        <h1>ESCOLHA QUAL FUNÇÃO FAZER</h1>
+            
+       <nav id="menu">
+    <ul>
+        <li><a href="amortizacao-americana.jsp">Amortização Americana</a></li>
+        <li><a href="amortizacao-constante.jsp">Amortização Constante</a></li>
+        <li><a href="tabela-price">Tabela Price</a></li>
         
-      
-    </body>
+    </ul>
+</nav>
+        
+        </body>
 </html>

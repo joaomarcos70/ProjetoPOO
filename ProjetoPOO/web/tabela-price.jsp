@@ -1,19 +1,14 @@
-<%-- 
-    Document   : tabela-price
-    Created on : 15/03/2019, 00:42:56
-    Author     : finha
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+
 <html>
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
        
     </head>
     <body>
        
-        <!-- Formulario -->  
+            <%@include file="WEB-INF/jspf/menu.jsp" %>
 
     <!-- Grid markup Bootstrap -->
         <center><div class="col-sm-6">
@@ -103,5 +98,6 @@
             </div>
             </div></center>
         
+            
     </body>
 </html>

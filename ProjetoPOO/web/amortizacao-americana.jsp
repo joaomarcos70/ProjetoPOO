@@ -1,8 +1,3 @@
-<%-- 
-    Document   : amortizacao-americana
-    Created on : 15/03/2019, 00:42:18
-    Author     : finha
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,6 +7,9 @@
     
     </head>
     <body>
+            <%@include file="WEB-INF/jspf/menu.jsp" %>
+
+        
         <h1>Hello World!</h1>
         
         <!-- Formulario -->  
@@ -99,7 +97,6 @@
             </div>
             </div>
             </div></center>
-    
     
     </body>
 </html>
