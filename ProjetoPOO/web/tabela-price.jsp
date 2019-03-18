@@ -1,14 +1,15 @@
+<%@page import="java.text.DecimalFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
+<!DOCTYPE html>
 <html>
-    
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-       
+        <title>Tabela Price</title>
+        <%@include file="WEB-INF/jspf/bootstrap_meta_and_fonts.jspf"%>
     </head>
     <body>
-       
-            <%@include file="WEB-INF/jspf/menu.jsp" %>
+        <%@include file="WEB-INF/jspf/navbar.jspf"%>
+        
+<!-- Formulario -->  
 
     <!-- Grid markup Bootstrap -->
         <center><div class="col-sm-6">
@@ -98,6 +99,8 @@
             </div>
             </div></center>
         
-            
+        
+        
+        <%@include file="WEB-INF/jspf/bootstrap_body_end.jspf"%>
     </body>
 </html>

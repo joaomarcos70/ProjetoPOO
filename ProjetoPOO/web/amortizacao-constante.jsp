@@ -3,13 +3,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+        <title>Amortização Constante</title>
+        <%@include file="WEB-INF/jspf/bootstrap_meta_and_fonts.jspf"%>
     </head>
     <body>
-              <%@include file="WEB-INF/jspf/menu.jsp" %>
-      
-    <!-- Formulario -->  
+        <%@include file="WEB-INF/jspf/navbar.jspf"%>
+        
+<!-- Formulario -->  
+
     <!-- Grid markup Bootstrap -->
         <center><div class="col-sm-6">
             <div class="card">
@@ -98,7 +99,9 @@
             </div>
             </div>
             </div></center>
-            
-            
+        
+        
+        
+        <%@include file="WEB-INF/jspf/bootstrap_body_end.jspf"%>
     </body>
 </html>

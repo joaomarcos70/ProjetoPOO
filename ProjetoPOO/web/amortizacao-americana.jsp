@@ -1,18 +1,14 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+        <title>Amortização Americana</title>
+        <%@include file="WEB-INF/jspf/bootstrap_meta_and_fonts.jspf"%>
     </head>
     <body>
-            <%@include file="WEB-INF/jspf/menu.jsp" %>
-
+        <%@include file="WEB-INF/jspf/navbar.jspf"%>
         
-        <h1>Hello World!</h1>
-        
-        <!-- Formulario -->  
+<!-- Formulario -->  
 
     <!-- Grid markup Bootstrap -->
         <center><div class="col-sm-6">
@@ -31,8 +27,8 @@
                 </div>
             </div>
         </div></center>
-    
-     <% try { %>
+
+    <% try { %>
         <% int periodo = Integer.parseInt(request.getParameter("periodo"));
         double txjuros = (Float.parseFloat(request.getParameter("taxa")) / 100);
         double capital = Float.parseFloat(request.getParameter("capital" ));
@@ -97,6 +93,8 @@
             </div>
             </div>
             </div></center>
-    
+                   
+        <%@include file="WEB-INF/jspf/bootstrap_body_end.jspf"%>
     </body>
 </html>
+

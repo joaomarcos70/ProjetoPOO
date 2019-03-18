@@ -2,22 +2,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>home</title>
+        <%@include file="WEB-INF/jspf/bootstrap_meta_and_fonts.jspf"%>
     </head>
-    <body>
-                <%@include file="WEB-INF/jspf/menu.jsp" %>
+    <body class="bodycolor">
+        <%@include file="WEB-INF/jspf/navbar.jspf"%>
 
-        <h1>ESCOLHA QUAL FUNÇÃO FAZER</h1>
-            
-       <nav id="menu">
-    <ul>
-        <li><a href="amortizacao-americana.jsp">Amortização Americana</a></li>
-        <li><a href="amortizacao-constante.jsp">Amortização Constante</a></li>
-        <li><a href="tabela-price">Tabela Price</a></li>
-        
-    </ul>
-</nav>
-        
-        </body>
+    <center>
+        <br>
+        <br>
+        <div class="col-sm-6"> <div class="p-5 mb-3 bg-light text-info">
+        <p class="text-monospace"><h1>Projeto 02 - Amortização</h1></p>
+        <br>
+        <p class="font-weight-bold"><h2>João Marcos Pereira Albuquerque</h2></p>
+        <p class="font-weight-bold"><h2>Rafael Ribeiro Bovecchio</h2></p>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </center>    
+
+    <%@include file="WEB-INF/jspf/bootstrap_body_end.jspf"%>
+    </body>
 </html>
